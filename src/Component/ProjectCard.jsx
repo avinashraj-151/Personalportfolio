@@ -7,7 +7,7 @@ function ProjectCard() {
       <div className="grid  md:grid-cols-2 gap-4">
         {github_data.map((item) => {
           return (
-            <div className="p-6">
+            <div className="p-6" key={item.id}>
               <div className="flex flex-col rounded-xl shadow-lg hover:shadow-[#9E7CFF] transition-all duration-500 cursor-pointer">
                 <img
                   src={item.image}
