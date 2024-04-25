@@ -44,13 +44,13 @@ function Home() {
               hover:text-[#16f2B3] hover:gap-3 ease-in-out transition-all duration-300
             rounded-2xl  border-[#9228E5] border-x-[#E247A0] "
               >
-                <h1 className="">Contact Me</h1>
+                <h1 className="">Contact</h1>
                 <RiContactsLine className=""></RiContactsLine>
               </button>
             </Link>
             <a href={pdfpath} target="_blank">
               <button className=" bg-gradient-to-r from-[#9228E5] to-[#E247A0]  p-3 flex text-white justify-center items-center uppercase gap-1 rounded-2xl  hover:from-[#E247A0] hover:to-[#9228E5]">
-                Get resume
+                resume
                 <FaArrowDown />
               </button>
             </a>
