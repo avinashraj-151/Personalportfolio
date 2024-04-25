@@ -58,7 +58,7 @@ export default function Sidebar() {
         <div class="flex flex-col items-center gap-2 justify-center">
           <Link to={"/"}>
             <div
-              class={`rounded-full w-3 h-3 ${
+              class={`rounded-full w-5 h-5 ${
                 indexsidebar == 0
                   ? " bg-[#BB37C1] animate-pulse"
                   : " bg-red-400"
@@ -67,7 +67,7 @@ export default function Sidebar() {
           </Link>
           <Link to={"/about"}>
             <div
-              class={`rounded-full w-3 h-3 ${
+              class={`rounded-full w-5 h-5 ${
                 indexsidebar == 1
                   ? " bg-[#BB37C1] animate-pulse"
                   : "bg-orange-400"
@@ -76,7 +76,7 @@ export default function Sidebar() {
           </Link>
           <Link to={"/skill"}>
             <div
-              class={`rounded-full w-3 h-3 ${
+              class={`rounded-full w-5 h-5 ${
                 indexsidebar == 2
                   ? " bg-[#BB37C1] animate-pulse"
                   : "bg-green-200"
@@ -85,7 +85,7 @@ export default function Sidebar() {
           </Link>
           <Link to={"/education"}>
             <div
-              class={`rounded-full w-3 h-3 ${
+              class={`rounded-full w-5 h-5 ${
                 indexsidebar == 3
                   ? " bg-[#BB37C1] animate-pulse"
                   : "bg-yellow-300"
@@ -94,7 +94,7 @@ export default function Sidebar() {
           </Link>
           <Link to={"/projects"}>
             <div
-              class={`rounded-full w-3 h-3 ${
+              class={`rounded-full w-5 h-5 ${
                 indexsidebar == 4
                   ? " bg-[#BB37C1] animate-pulse"
                   : "bg-amber-500"
@@ -103,7 +103,7 @@ export default function Sidebar() {
           </Link>
           <Link to={"/contact"}>
             <div
-              class={`rounded-full w-3 h-3 ${
+              class={`rounded-full w-5 h-5 ${
                 indexsidebar == 5
                   ? " bg-[#BB37C1] animate-pulse"
                   : "bg-slate-400"

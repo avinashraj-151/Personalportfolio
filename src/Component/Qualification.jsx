@@ -19,10 +19,10 @@ function Qualification() {
             </h1>
           </div>
           <div className="w-full h-full flex flex-row p-4">
-            <div className="w-[50%] justify-center flex items-center pt-10 ">
+            <div className="lg:w-[50%] justify-center lg:flex items-center pt-10 hidden">
               <img src={degree} className="w-96 h-96"></img>
             </div>
-            <div className="w-[50%]">
+            <div className="lg:w-[50%] h-full w-full">
               <div className="pt-10">
                 <div className="flex flex-col gap-4">
                   <div className={css_qualification}>

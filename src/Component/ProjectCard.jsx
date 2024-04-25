@@ -4,7 +4,7 @@ import { github_data } from "./data.js";
 function ProjectCard() {
   return (
     <div className="mt-10 mb-8">
-      <div className="grid  grid-cols-2 gap-4">
+      <div className="grid  md:grid-cols-2 gap-4">
         {github_data.map((item) => {
           return (
             <div className="p-6">
@@ -15,7 +15,7 @@ function ProjectCard() {
                 ></img>
                 <div className="bg-[#0D1224] p-4 rounded-b-lg flex flex-col">
                   <div>
-                    <h1 className="text-white capitalize text-2xl">
+                    <h1 className="text-white capitalize lg:text-2xl md:text-xl">
                       {item.name}
                     </h1>
                     <p className="line-clamp-2 text-pretty leading-relaxed text-white pt-2">

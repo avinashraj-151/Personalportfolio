@@ -19,17 +19,17 @@ function Projects() {
         width: "100vw",
       }}
     >
-      <div className="w-full h-full flex flex-row gap-5 mt-10">
-        <div className="w-[50%]">
+      <div className="w-full h-full flex lg:flex-row flex-col-reverse gap-5 lg:mt-10 md:mt-16">
+        <div className="lg:w-[50%] md:block w-full h-full hidden">
           <div className="w-full h-full flex justify-center items-center">
-            <img src={project} className="w-[500px]"></img>
+            <img src={project} className="lg:w-[500px] w-[300px]"></img>
           </div>
         </div>
-        <div className="w-[50%]">
+        <div className="lg:w-[50%] w-full h-full">
           <div className="w-full h-full p-5 flex flex-col justify-center">
             <div className="flex flex-col gap-4">
               <h1 className="text-3xl text-[#9E7CFF]">Projects</h1>
-              <p className="text-2xl text-white leading-relaxed">
+              <p className="lg:text-2xl text-white leading-relaxed text-xl">
                 My projects make use of a vast variety of the latest technology
                 tools, delivering innovative solutions at the intersection of
                 advanced web development techniques, intricate data structures,

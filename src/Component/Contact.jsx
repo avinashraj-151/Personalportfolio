@@ -85,18 +85,20 @@ function Contact() {
           width: "100vw",
         }}
       >
-        <div className="w-full h-full flex flex-row gap-5 mt-10">
-          <div className="w-[50%]">
+        <div className="w-full h-full flex lg:flex-row gap-5 flex-col-reverse lg:mt-5 md:mt-20">
+          <div className="lg:w-[50%] md:block md:w-full md:h-full hidden">
             <div className="w-full h-full flex justify-center items-center">
-              <img src={myphoto} className="w-[400px]"></img>
+              <img src={myphoto} className="lg:w-[400px] w-[300px]"></img>
             </div>
           </div>
-          <div className="w-[50%]">
+          <div className="lg:w-[50%] w-full h-full">
             <div className="w-full h-full p-5 flex flex-col justify-center">
               <div className="flex flex-col gap-4">
                 <div>
-                  <h1 className="text-3xl text-[#9E7CFF]">Contact Me</h1>
-                  <p className="text-2xl text-white leading-relaxed">
+                  <h1 className="lg:text-3xl text-2xl text-[#9E7CFF] mb-3 md:mb-0">
+                    Contact Me
+                  </h1>
+                  <p className="lg:text-2xl text-white leading-relaxed text-xl">
                     I'm reachable across various social media platforms. Drop me
                     a message, and I'll get back to you within 24 hours.
                   </p>
