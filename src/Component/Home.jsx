@@ -52,7 +52,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="lg:w-[50%] w-full h-full">
+      <div className="lg:w-[50%] w-full h-full md:block hidden">
         <Code></Code>
       </div>
     </div>

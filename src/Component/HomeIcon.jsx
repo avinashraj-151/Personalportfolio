@@ -4,7 +4,6 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
 import gfg from "../assets/gfg.svg";
-import { Link } from "react-router-dom";
 function HomeIcon() {
   return (
     <div className="flex flex-row gap-4">
