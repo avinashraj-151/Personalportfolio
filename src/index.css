@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#0D1224] h-screen w-screen;
+}
+
+@keyframes borderAnimation {
+  0% {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #ff00ff; /* Change to your desired border color */
+  }
+  100% {
+    border-color: transparent;
+  }
+}
+
+.animate-border {
+  animation: none; /* Initially, disable the animation */
+}
+
+.animate-border:hover {
+  animation: borderAnimation 2s ease infinite; /* Enable animation on hover */
+}
+
+.course-card {
+  width: 300px; /* Adjust as needed */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Optional */
+}
+
+.card-image {
+  height: 200px; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Keeps image within the container  */
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+button.Toastify__close-button.Toastify__close-button--light {
+  color: white;
+  opacity: 0.9;
+}
