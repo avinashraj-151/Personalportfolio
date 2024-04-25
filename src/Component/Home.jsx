@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useContext } from "react";
 import bgimage from "../assets/backgroundimage.svg";
 import { RiContactsLine } from "react-icons/ri";
 import { FaArrowDown } from "react-icons/fa";
@@ -6,7 +6,12 @@ import Code from "./Code";
 import HomeIcon from "./HomeIcon";
 import { Link } from "react-router-dom";
 import pdfpath from "../assets/resume4.pdf";
+import { Context } from "./Contextapi";
 function Home() {
+  const { indexsidebar, setindexsidebar } = useContext(Context);
+  useEffect(() => {
+    setindexsidebar(0);
+  });
   return (
     <div
       className="p-10 flex flex-col lg:flex-row gap-4 overflow-auto scrollbar-thin lg:overflow-hidden"

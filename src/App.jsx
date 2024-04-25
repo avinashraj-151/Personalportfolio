@@ -9,7 +9,7 @@ import Projects from "./Component/Projects";
 import Contact from "./Component/Contact";
 function App() {
   return (
-    <div className="flex flex-row">
+    <div className="flex md:flex-row">
       <Sidebar></Sidebar>
       <Routes>
         <Route path="/" element={<Home />} />
