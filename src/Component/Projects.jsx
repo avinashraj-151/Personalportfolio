@@ -29,7 +29,7 @@ function Projects() {
           <div className="w-full h-full p-5 flex flex-col justify-center">
             <div className="flex flex-col gap-4">
               <h1 className="text-3xl text-[#9E7CFF]">Projects</h1>
-              <p className="lg:text-2xl text-white leading-relaxed text-xl">
+              <p className="lg:text-2xl text-white md:leading-relaxed md:text-xl sm:text-sm">
                 My projects make use of a vast variety of the latest technology
                 tools, delivering innovative solutions at the intersection of
                 advanced web development techniques, intricate data structures,

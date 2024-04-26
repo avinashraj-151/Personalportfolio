@@ -22,7 +22,7 @@ function About() {
         <div className="w-full h-full flex justify-center items-center flex-col">
           <div className="flex flex-col gap-3 p-4">
             <h1 className="text-[#16F2B3] text-xl font-bold">WHO I AM?</h1>
-            <p className="text-white font-sans lg:text-2xl  text-xl  lg:leading-relaxed text-pretty">
+            <p className="text-white font-sans lg:text-2xl  md:text-xl  lg:leading-relaxed md:text-pretty">
               I'm <span className="text-[#EC4899]">Avinash Raj</span>, a
               passionate <span className="">software developer</span> with a
               demonstrated track record in competitive programming on platforms

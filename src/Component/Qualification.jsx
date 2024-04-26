@@ -30,13 +30,13 @@ function Qualification() {
                       <img src={lpu} className="w-20"></img>
                     </div>
                     <div className="flex flex-row justify-between gap-3 items-center p-2">
-                      <h1 className="text-2xl text-white">
+                      <h1 className="md:text-2xl text-white text-sm">
                         Lovely Professional University
                       </h1>
                       <h2 className="text-sm text-[#16F2B3]">2020-Present</h2>
                     </div>
                     <div>
-                      <h1 className="text-pretty text-white p-2">
+                      <h1 className="md:text-pretty text-white p-2 text-xs">
                         Bachelor of Technology in Computer Science And
                         Engineering
                       </h1>
@@ -50,13 +50,13 @@ function Qualification() {
                   <div className={css_qualification}>
                     <div className="flex justify-center items-center"></div>
                     <div className="flex flex-row justify-between gap-3 items-center p-2">
-                      <h1 className="text-2xl text-white">
+                      <h1 className="md:text-2xl text-white text-sm">
                         Marigold Public School
                       </h1>
                       <h2 className="text-sm text-[#16F2B3]">2017-2019</h2>
                     </div>
                     <div>
-                      <h1 className="text-pretty text-white p-2">
+                      <h1 className="md:text-pretty text-xs text-white p-2">
                         Higher Secondary Certificate
                       </h1>
                     </div>
@@ -67,13 +67,13 @@ function Qualification() {
                   <div className={css_qualification}>
                     <div className="flex justify-center items-center"></div>
                     <div className="flex flex-row justify-between gap-3 items-center p-2">
-                      <h1 className="text-2xl text-white">
+                      <h1 className="md:text-2xl text-sm text-white">
                         Bahera public school
                       </h1>
                       <h2 className="text-sm text-[#16F2B3]">2016-2017</h2>
                     </div>
                     <div>
-                      <h1 className="text-pretty text-white p-2">
+                      <h1 className="text-pretty text-xs text-white p-2">
                         Secondary School Certificate
                       </h1>
                     </div>
