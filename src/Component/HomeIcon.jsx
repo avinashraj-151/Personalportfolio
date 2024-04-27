@@ -7,7 +7,7 @@ import gfg from "../assets/gfg.svg";
 function HomeIcon() {
   return (
     <div className="flex flex-row md:gap-4 gap-1">
-      <div className="cursor-pointer  bg-[#16F2B3] rounded-full p-2">
+      <div className="cursor-pointer  bg-[#16F2B3] rounded-full p-2 ">
         <a
           href="https://www.geeksforgeeks.org/user/avinashrajraj628/"
           target="_blank"

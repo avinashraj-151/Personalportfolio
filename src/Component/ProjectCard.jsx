@@ -8,7 +8,7 @@ function ProjectCard() {
         {github_data.map((item) => {
           return (
             <div className="p-6" key={item.id}>
-              <div className="flex flex-col rounded-xl shadow-lg hover:shadow-[#9E7CFF] transition-all duration-500 cursor-pointer">
+              <div className="flex flex-col rounded-xl shadow-lg hover:shadow-[#9E7CFF] transition-all duration-500 cursor-pointer relative">
                 <img
                   src={item.image}
                   className="h-52 w-full hover:animate-pulse cursor-pointer rounded-t-lg bg-cover"
